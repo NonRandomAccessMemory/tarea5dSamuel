@@ -15,4 +15,10 @@ public class Persona {
     public Persona(String nombre){
     this.nombre=nombre;}
     
+    public String getNombre(){
+        return this.nombre;}
+    public void setNombre(String nuevoNombre){
+        if(!this.nombre.isEmpty() && this.nombre.isBlank()){
+            this.nombre= nombre;}
+        }
 }
