@@ -10,4 +10,9 @@ package daw.tarea5csamuelnavarro;
  */
 public class Persona {
     String nombre= new String();
+    
+    public Persona(){};
+    public Persona(String nombre){
+    this.nombre=nombre;}
+    
 }
