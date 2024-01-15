@@ -11,6 +11,10 @@ package daw.tarea5csamuelnavarro;
 public class Tarea5cSamuelNavarro {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Persona persona = new Persona();
+        persona.nombre = "Manuel";
+    
+        
+        
     }
 }
